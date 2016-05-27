@@ -1,0 +1,29 @@
+
+.mine-li-buy-time
+{
+	width: 200px;
+}
+
+.mine-li-buy-where
+{
+	width: 200px;
+    position: absolute;
+    left: 200px;
+}
+
+.mine-li-price
+{
+	width: 200px;
+    position: absolute;
+    left: 450px;
+}
+
+#add_button
+{
+	align-self: auto;
+}
+
+#objform
+{
+	visibility: hidden;	
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <script src="js/mine.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/mine.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<!--<header class="mui-bar mui-bar-nav">
+	    <h1 class="mui-title">【念旧】</h1>
+	</header>-->
+	<div id="objlist">
+	<ul class="mui-table-view" id="stickies">
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:;">
+	            <img class="mui-media-object mui-pull-left" src="">
+	            <div class="mui-media-body">
+	                新秀丽拉杆箱
+	                <p class="mui-ellipsis">
+	                	<span class="mine-li-buy-time">购买时间：2016-5-13</span>
+		                <span class="mine-li-buy-where">购买网址：京东</span>
+		                <span class="mine-li-price">价钱：299元</span>
+	                </p>
+	                <!--<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>-->
+	            </div>
+	        </a>
+	    </li>
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:;">
+	            <img class="mui-media-object mui-pull-left" src="">
+	            <div class="mui-media-body">
+	                木屋
+	                <p class="mui-ellipsis">
+	                	<span class="mine-li-buy-time">购买时间：2016-5-13</span>
+		                <span class="mine-li-buy-where">购买网址：京东、淘宝、天猫就看见</span>
+		                <span class="mine-li-price">价钱：299元</span>
+	                </p>
+	                <!--<p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>-->
+	            </div>
+	        </a>
+	    </li>
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:;">
+	            <img class="mui-media-object mui-pull-left" src="">
+	            <div class="mui-media-body">
+	                CBD
+	                <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+	            </div>
+	        </a>
+	    </li>
+	</ul>
+	</div>
+	<!--<input type="button" id="add_button" value="增加"/>-->
+	<button id="add_button">增加</button>
+	<form id="objform">
+		<label>物品：</label><input type="text" id="form_obj"/>
+		<label>购买日期：</label><input type="date" id="form_time"/>
+		<label>购买网站：</label><input type="text" id="form_where"/>
+		<label>价钱（元）：</label><input type="text" id="form_price"/>
+	</form>
+</body>
+</html>
